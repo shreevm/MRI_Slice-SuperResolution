@@ -156,8 +156,5 @@ from models import ResidualInterpCNN, SRGAN_G, SRGAN_D, FastDDPM
 - Diffusion model gives best visual anatomical consistency
 - CNN is lightweight and stable
 
-Citation
-Shree Varaa Mangai Venkat Ramanujam,
-“MRI Multi-Image Super-Resolution using CNN, GAN, and Diffusion Models”, 2025.
-"Fast-DDPM: Fast denoising diffusion probabilistic models for medical image-to-image generation",2025
+
 
