@@ -17,27 +17,27 @@ This project follows the methods and concepts taught in **Lecture 16: Multi-Imag
 
 MRI_SLICE-SUPERRESOLUTION/
 │
-├── .ipynb_checkpoints/ # Auto-generated notebook checkpoints
+├── .ipynb_checkpoints/             # Auto-generated notebook checkpoints
 │
-├── models/ # Saved model weights and checkpoints
-│ ├── cnn_best.pth
-│ ├── srgan_g_best.pth
-│ ├── test_dataset_cache.pt
-│ └── diffusion_best.pth
+├── models/                         # Saved model weights and checkpoints
+│   ├── cnn_best.pth
+│   ├── srgan_g_best.pth
+│   ├── test_dataset_cache.pt
+│   └── diffusion_best.pth
 │
-├── Results/ # All outputs, metrics & final reconstructions
-│ ├── axial_comparison.png
-│ ├── sagittal_comparison.png
-│ ├── cnn_outputs/
-│ ├── srgan_outputs/
-│ └── diffusion_outputs/
+├── Results/                        # Evaluation results & visual reconstructions
+│   ├── axial_comparison.png
+│   ├── sagittal_comparison.png
+│   ├── cnn_outputs/
+│   ├── srgan_outputs/
+│   └── diffusion_outputs/
 │
-├── Evaluation & Visualizations.ipynb # Full evaluation pipeline (PSNR, SSIM, plots)
-├── Training_ImageSuperResolution.ipynb # Training pipeline for all models
-├── models.py # CNN, SRGAN, and Fast-DDPM architectures
+├── Evaluation & Visualizations.ipynb  # PSNR, SSIM evaluation, plots, comparisons
+├── Training_ImageSuperResolution.ipynb # Training pipeline for CNN, SRGAN, DDPM
 │
-└── README.md # Project documentation
-
+├── models.py                       # Architectures for all SR models
+│
+└── README.md                       # Project documentation
 
 ---
 
@@ -117,7 +117,7 @@ Evaluation & Visualizations.ipynb
 
 ---
 
-# 📈 Final Quantitative Results
+# Final Quantitative Results
 
 | Model               | MSE       | MAE       | PSNR (dB) | SSIM  |
 |---------------------|-----------|-----------|-----------|--------|
@@ -125,10 +125,10 @@ Evaluation & Visualizations.ipynb
 | SRGAN               | 0.006300  | 0.055723  | **29.045**| **0.850** |
 | Fast-DDPM           | 0.009355  | 0.069518  | 27.019    | 0.801 |
 
-### ✔ Interpretation
+### Interpretation
 - **SRGAN** achieves the highest numerical performance.  
 - ** FAST Diffusion model** produces smoothest anatomical continuity in sagittal view.  
-- **CNN** provides good baseline performance.  
+- ** ResidualInterpCNN ** provides good baseline performance.  
 
 ---
 
