@@ -37,7 +37,7 @@ MRI_SLICE-SUPERRESOLUTION/
 ├── models.py                       # Architectures for all SR models
 │
 └── README.md                       # Project documentation
-
+```
 # Problem Statement
 
 MRI scanners produce **anisotropic voxel spacing**, meaning:
