@@ -11,10 +11,9 @@ Three deep learning models are implemented and compared:
 
 This project follows the methods and concepts taught in **Lecture 16: Multi-Image Super Resolution**.
 
-'''
-
 # 📂 Project Folder Structure
 
+```text
 MRI_SLICE-SUPERRESOLUTION/
 │
 ├── .ipynb_checkpoints/             # Auto-generated notebook checkpoints
@@ -38,8 +37,6 @@ MRI_SLICE-SUPERRESOLUTION/
 ├── models.py                       # Architectures for all SR models
 │
 └── README.md                       # Project documentation
-
-'''
 
 # Problem Statement
 
