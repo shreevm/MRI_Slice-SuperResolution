@@ -11,7 +11,7 @@ Three deep learning models are implemented and compared:
 
 This project follows the methods and concepts taught in **Lecture 16: Multi-Image Super Resolution**.
 
----
+'''
 
 # 📂 Project Folder Structure
 
@@ -39,7 +39,7 @@ MRI_SLICE-SUPERRESOLUTION/
 │
 └── README.md                       # Project documentation
 
----
+'''
 
 # Problem Statement
 
